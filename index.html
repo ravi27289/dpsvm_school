@@ -40,6 +40,20 @@
   <!--Favicon-->
   <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <!---------------------menu------------------------>
+ <script type="text/javascript">
+        $(function() {
+          if ($.browser.msie && $.browser.version.substr(0,1)<7)
+          {
+			$('li').has('ul').mouseover(function(){
+				$(this).children('ul').show();
+				}).mouseout(function(){
+				$(this).children('ul').hide();
+				})
+          }
+        });        
+    </script>
+	<!-----Menu style seting ------------->
 
 </head>
 
@@ -76,13 +90,152 @@
     </div>
   </div>
   <!-- navbar -->
-  
   <div class="navigation w-100">
-    <div>
-      <a  href="index.html"><img src="images/logo/svm_logo.png" alt="logo"></a>
-      
-    </div>
+    <div >
+      <a class=".navigation-image w-100" href="index.html"><img src="images/banner/6.jpg" style="height: 210px; width: 1520px;" alt="logo"></a>
+      <!-- <nav class="navbar navbar-expand-lg navbar-light p-0">
+        <button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#navigation"
+        aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  <div class="collapse navbar-collapse" style="flex:0;" id="navigation">
+    <ul class="navbar-nav ml-auto text-center">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item @@about">
+        <a class="nav-link" href="about.html">About</a>
+      </li>
+      <li class="nav-item @@courses">
+        <a class="nav-link" href="#">COURSES</a>
+       
+      </li>
+      <li class="nav-item @@events">
+        <a class="nav-link" href="#">EVENTS</a>
+      </li>
+      <li class="nav-item @@blog">
+        <a class="nav-link" href="#">BLOG</a>
+      </li>
+      <li class="nav-item dropdown view">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Certificates
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Teacher</a>
+          <a class="dropdown-item" href="#">Teacher Single</a>
+          <a class="dropdown-item" href="#">Notice</a>
+          <a class="dropdown-item" href="#">Marks sheets</a>
+          <a class="dropdown-item" href="#">Research</a>
+          <a class="dropdown-item" href="#">Scholarship</a>
+          <a class="dropdown-item" href="#">School Leaving Certificate</a>
+          <a class="dropdown-item" href="#">Course Details</a>
+          <a class="dropdown-item" href="#">Event Details</a>
+          <a class="dropdown-item" href="#">Blog Details</a>
+        </div>
+      </li>
+      <li class="nav-item @@contact">
+        <a class="nav-link" href="contact.html">CONTACT</a>
+      </li>
+    </ul>
   </div>
+        
+      </nav> -->
+      <div class="menu" style="background-color: rgb(232, 119, 28);">
+        <ul id="menu">
+        <div style="width:5%;height:30px; float:left;"></div>
+            <li><a href="https://www.mygov.in"; target="_blank";><img src="images/mygov.png" height="100%" width="130%"></a></li>
+            <li><a href="index.php">HOME</a></li>
+            <li><a href="#">About us</a>
+                <ul>
+                    <li><a href="Introduction.php">Introduction</a></li>
+                    <li><a href="Affiliation.php">Affiliation</a></li>
+                    <li><a href="Management_Committee.php">Managing Committee</a></li>
+                    <li><a href="Principal_Message.php">Principal's Message</a></li>
+                    <li><a href="Our_Staff.php">Our Staff</a>
+                        <ul>
+                            <li><a href="PGT.php">PGT</a></li>
+                            <li><a href="TGT.php">TGT</a></li>
+                            <li><a href="PRT.php">PRT</a></li>
+                            <li><a href="Non-Teaching.php">Non-Teaching</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Students_Strength.php">Students Strength</a></li>				
+                    <li><a href="Infrastructure.php">Infrastructure</a></li>
+                    <li><a href="Objectives.php">Objectives</a></li>
+                    <li><a href="Guidelines.php">Guidelines</a></li>
+                    <li><a href="Disclosure.php">Mandatory Disclosure</a></li>
+                </ul>
+            </li>
+            <li><a href="#">ADMISSION</a>
+                <ul>
+                    <!--<li><a href="admission.php">Admission Class XI</a></li>-->
+                    <li><a href="Admission_Procedure.php">Admission Procedure</a></li>
+                    <li><a href="Admission_Form.php">Admission Form</a></li>
+                    <li><a href="Rules_Regulations.php">Rules & Regulations</a></li>
+                    <li><a href="Fee_Structure.php">Fee Structure</a></li>
+                    <li><a href="School_Schedule.php">School Schedule</a></li>
+                    <li><a href="uniform.php">Uniform</a></li>
+                    <li><a href="Book_list.php">Book List</a></li>
+                </ul>
+            </li>
+            <li><a href="#">ACADEMIC</a>
+                <ul>
+                    <li><a href="Examination.php">Examination</a>
+                    <li><a href="syllabus.php">Syllabus</a></li>
+                    <li><a href="Assignment.php">Assignment</a></li>
+                    <li><a href="Home_Work.php">Home Work</a>
+                    <li><a href="Co-curricular_Activities.php">Co-Curricular Activities</a>
+                    <li><a href="Examination_Date_sheet.php">Date Sheet of Exam.</a></li>
+                    <li><a href="Result.php">Result</a>
+                        <ul>
+                            <li><a href="Senior_Secondary.php">Senior Secondary</a></li>
+                            <li><a href="Secondary.php">Secondary</a></li>
+                            <li><a href="Primary.php">Primary</a></li>
+                        </ul>
+                    <li><a href="Academic_Calender.php">Academic Calender</a></li>			
+                    <li><a href="Transfer_Certificate.php">Transfer Certificate</a></li>
+                </ul>
+            <li><a href="#">FACILITIES</a>
+                <ul>
+                    <li><a href="Laboratories.php">Laboratories >></a>
+                        <ul>
+                            <li><a href="Physics_Lab.php">Physics Lab.</a></li>
+                            <li><a href="Chemistry_Lab.php">Chemistry Lab.</a></li>
+                            <li><a href="Biology_Lab.php">Biology Lab.</a></li>
+                            <li><a href="Computer_Lab.php">Computer Lab.</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="Library.php">Library</a></li>
+                    <li><a href="Games_Sports.php">Games & Sports</a></li>
+                    <li><a href="Music_Dance.php">Music & Dance</a></li>
+                    <li><a href="Art_Craft.php">Art & Craft</a></li>
+                    <li><a href="Smart_Class.php">Smart Class</a></li>
+                    <li><a href="Transportation.php">Transportation</a></li>
+                </ul>
+            </li>
+            <li><a href="Alumni.php">Alumni</a></li>
+            <!--<li><a href="Contact_Us.php">Contact Us</a></li>  -->
+            <li><a href="verify.php">Verification</a></li>
+    
+            <li><a href="#">SAINIK SCHOOL</a>
+                <ul>
+                    <li><a href="https://drive.google.com/drive/folders/1LdJgXO4L9JM_PMyoCkwSgAU6gXeAToJz?usp=share_link">Sainik School Activities</a></li>
+                    <li><a href="Disclosure.php">Disclosure-CBSE</a></li>
+                    <li><a href="/sainik_school/mandatory_disc.php">Disclosure-SSS</a></li>
+                    <li><a href="/sainik_school/pocso.php">POCSO ICC</a></li>
+                </ul>
+            </li>
+            <li><a href="admin_login.php">Login</a></li>
+            <!--<div style="height:30px; float:left; color:#666; background-color:#036;">
+                <div align="right"> </div>
+            </div>-->
+        </ul>
+    </div>
+    </div>
+    
+  </div>
+
 </header>
 <!-- /header -->
 <!-- Modal -->
@@ -188,7 +341,7 @@
         <tbody>
             <tr>
  <!-- Slide image start -->
-              <td width="50%" height="50px">
+              <td width="40%" height="40px">
                
                  
                
@@ -305,7 +458,7 @@
                </td>
  <!-- Slide image End -->
   <!-- Notice Board start -->
-               <td width="50%" height="50px" align="center" valign="top" >
+               <td width="40%" height="40px" align="center" valign="top" >
                     <!-- <table>
                       <tbody><tr width="100%" height="20" align="left" valign="top" bgcolor="#000099">
                           <td width="100%" style="color:#FFF; font-size:25px;" align="center"><b>Notice Board</b></td>
