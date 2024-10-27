@@ -318,8 +318,8 @@ a h4:hover {
 }
 
 .section {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .section-sm {
@@ -723,7 +723,7 @@ link:focus,
 }
 
 .hero-section {
-  padding: 290px 0 50px;
+  padding: 280px 0 50px;
 }
 
 .hero-section-notice {
@@ -1067,7 +1067,7 @@ color:#F00;
 	padding: 0 25px;
 	color: #ffffff;
 	text-transform: uppercase;
-	font: bold 11px/25px  Verdana, Geneva, sans-serif;
+	font: bold 17px/25px  Verdana, Geneva, sans-serif;
 	text-decoration: none;
 	line-height:30px;
 }
@@ -1077,7 +1077,7 @@ color:#F00;
 	padding: 0 20px;
 	color:#090;
 	text-transform: uppercase;
-	font: bold 12px/25px Arial, Helvetica;
+	font: bold 17px/25px Arial, Helvetica;
 	text-decoration: none;
 	line-height:40px;
 }
@@ -1091,7 +1091,7 @@ color:#F00;
 }
 *html #menu li a:hover /* IE6 */
 {
-	color: #000000;
+	color: #630909;
 }
 *html #menu li a.active
 {
@@ -1146,7 +1146,7 @@ color:#F00;
 {    
     padding: 8px;
 	height: 10px;
-	width: 130px;
+	/* width: 160px; */
 	height:auto;
     line-height:1;
     display:block;
@@ -1165,8 +1165,8 @@ color:#F00;
 }
 #menu ul a:hover
 {
-    background: #FF5099;
-color:#000000;
+    background: #b2e32e;
+color:#ed8208;
 }
 #menu ul li:first-child > a
 {
@@ -1234,10 +1234,10 @@ a:active {
 .style13 {color: #FFFFFF; font-weight: bold; }
 .style16 {
 	color: #F5DC8A;
-	font-size: 14px;
+	font-size: 12px;
 	font-weight: bold;
 }
-.style17 {font-size: 14px}
+.style17 {font-size: 5px}
 .style18 {color:#039}
 .style19 {
 	color: #BF100D;
