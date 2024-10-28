@@ -365,9 +365,9 @@ a h4:hover {
   display: unset !important;
 }
 
-.bg-primary {
+/* .bg-primary {
   background: #ffbc3b !important;
-}
+} */
 
 .bg-secondary {
   background: #1a1a37 !important;
@@ -467,7 +467,7 @@ a h4:hover {
 
 /* page title */
 .page-title-section {
-  padding: 200px 0 80px;
+  padding: 275px 0 20px;
 }
 
 .custom-breadcrumb li.nasted {
